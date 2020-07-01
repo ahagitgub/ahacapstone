@@ -33,7 +33,7 @@
 
 }
 
-.slider-button {
+.slide-button {
     display: inline-block;
     height: 10px;
     width: 10px;
@@ -42,12 +42,12 @@
 
 }
 
-#slider-image-1:target ~ .image-container{
+#slide-image-1:target ~ .image-container{
     left: 0px;
 }
-#slider-image-2:target ~ .image-container{
+#slide-image-2:target ~ .image-container{
     left: -800px;
 }
-#slider-image-3:target ~ .image-container{
+#slide-image-3:target ~ .image-container{
     left: -1600px;
 }
